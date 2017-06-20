@@ -14,6 +14,8 @@
 		040EC4911EF006E400BC100D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040EC4901EF006E400BC100D /* Assets.xcassets */; };
 		040EC4941EF006E400BC100D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040EC4921EF006E400BC100D /* LaunchScreen.storyboard */; };
 		040EC49F1EF006E500BC100D /* AudioPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040EC49E1EF006E500BC100D /* AudioPlayerUITests.m */; };
+		040EC4AB1EF0098500BC100D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040EC4AA1EF0098500BC100D /* AVFoundation.framework */; };
+		040EC4AD1EF00D0A00BC100D /* 01 Prem Mein Tohre (Asha Bhosle) 190Kbps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 040EC4AC1EF00D0A00BC100D /* 01 Prem Mein Tohre (Asha Bhosle) 190Kbps.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		040EC49A1EF006E500BC100D /* AudioPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040EC49E1EF006E500BC100D /* AudioPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerUITests.m; sourceTree = "<group>"; };
 		040EC4A01EF006E500BC100D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040EC4AA1EF0098500BC100D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		040EC4AC1EF00D0A00BC100D /* 01 Prem Mein Tohre (Asha Bhosle) 190Kbps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 Prem Mein Tohre (Asha Bhosle) 190Kbps.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040EC4AB1EF0098500BC100D /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +71,7 @@
 				040EC4831EF006E400BC100D /* AudioPlayer */,
 				040EC49D1EF006E500BC100D /* AudioPlayerUITests */,
 				040EC4821EF006E400BC100D /* Products */,
+				040EC4A91EF0098500BC100D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +91,7 @@
 				040EC4881EF006E400BC100D /* AppDelegate.m */,
 				040EC48A1EF006E400BC100D /* ViewController.h */,
 				040EC48B1EF006E400BC100D /* ViewController.m */,
+				040EC4AC1EF00D0A00BC100D /* 01 Prem Mein Tohre (Asha Bhosle) 190Kbps.mp3 */,
 				040EC48D1EF006E400BC100D /* Main.storyboard */,
 				040EC4901EF006E400BC100D /* Assets.xcassets */,
 				040EC4921EF006E400BC100D /* LaunchScreen.storyboard */,
@@ -109,6 +116,14 @@
 				040EC4A01EF006E500BC100D /* Info.plist */,
 			);
 			path = AudioPlayerUITests;
+			sourceTree = "<group>";
+		};
+		040EC4A91EF0098500BC100D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				040EC4AA1EF0098500BC100D /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +175,7 @@
 				TargetAttributes = {
 					040EC4801EF006E400BC100D = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = ELDB38QD4F;
 						ProvisioningStyle = Automatic;
 					};
 					040EC4991EF006E500BC100D = {
@@ -196,6 +212,7 @@
 				040EC4941EF006E400BC100D /* LaunchScreen.storyboard in Resources */,
 				040EC4911EF006E400BC100D /* Assets.xcassets in Resources */,
 				040EC48F1EF006E400BC100D /* Main.storyboard in Resources */,
+				040EC4AD1EF00D0A00BC100D /* 01 Prem Mein Tohre (Asha Bhosle) 190Kbps.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +368,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ELDB38QD4F;
 				INFOPLIST_FILE = AudioPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Dinesh-sharma.AudioPlayer";
@@ -362,6 +380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ELDB38QD4F;
 				INFOPLIST_FILE = AudioPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Dinesh-sharma.AudioPlayer";
@@ -410,6 +429,7 @@
 				040EC4A51EF006E500BC100D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		040EC4A61EF006E500BC100D /* Build configuration list for PBXNativeTarget "AudioPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +438,7 @@
 				040EC4A81EF006E500BC100D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
